@@ -5,7 +5,7 @@ data "google_compute_image" "ubuntu" {
 }
 
 resource "google_compute_instance" "web" {
-  name         = "lethal_venom"
+  name         = "lethal-venom"
   machine_type = "e2-micro"
 
   
