@@ -16,8 +16,8 @@ data "google_compute_image" "ubuntu" {
   family      = "ubuntu-2204-lts"
 }
 
-resource "google_compute_instance" "web" {
-  name         = "brutal-venom"
+resource "google_compute_instance" "blog" {
+  name         = "cruel-venom"
   machine_type = "e2-micro"
 
   
